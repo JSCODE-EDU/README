@@ -80,6 +80,24 @@ npm run build
 - **ORM** : Sequelize
 - **Deploy**: AWS EC2
 
+## :open_file_folder: Project Structure
+
+```markdown
+src
+├── common
+│   ├── config
+│   ├── types
+│   └── utils
+│       ├── types
+│       └── utils
+├── controller
+├── entity
+├── infrastructure
+│   ├── express
+│   └── typeorm
+├── repository
+└── ser
+```
 
 ## 🔨 Server Architecture
 (↑서버 아키텍처에 대한 내용을 그림으로 표현함으로써 인프라를 어떻게 구축했는 지 한 눈에 보여줄 수 있다.)
