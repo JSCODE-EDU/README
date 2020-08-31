@@ -48,7 +48,8 @@
 
 
 ## 🔨 Server Architecture
-
+(↑서버 아키텍처에 대한 내용을 그림으로 표현함으로써 인프라를 어떻게 구축했는 지 한 눈에 보여줄 수 있다.)
+![](https://docs.aws.amazon.com/gamelift/latest/developerguide/images/realtime-whatis-architecture-vsd.png)
 
 ## ⚒ CI/CD
 - github actions를 활용해서 지속적 통합 및 배포
