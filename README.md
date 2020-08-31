@@ -23,12 +23,10 @@
 
 ![](https://user-images.githubusercontent.com/38487811/90950455-85d36700-e48c-11ea-9b79-72b5dcb6c6d6.png)
 
-(프로젝트를 대표하는 대표 이미지)
+(↑프로젝트를 대표하는 대표 이미지)
 
 
 ## 📖 Description
-
-(↑프로젝트에 대한 자세한 설명)
 
 오프라인에 존재했던 롤링페이퍼 서비스를 온라인으로 옮겨왔습니다.
 
@@ -36,6 +34,26 @@
 
 다양한 종류의 편지지와 스티커로 화면을 꾸미고, 소중한 사람에게 뜻깊은 경험을 선물하세요!
 
+(↑프로젝트에 대한 자세한 설명)
+
+## ⭐ Main Feature
+
+
+## 🔧 Stack
+- **Language**: JavaScript
+- **Library & Framework** : Node.js
+- **Database** : AWS RDS (MariaDB)
+- **ORM** : Sequelize
+- **Deploy**: AWS EC2
+
+
+## 🔨 Server Architecture
+
+
+## ⚒ CI/CD
+- github actions를 활용해서 지속적 통합 및 배포
+- `feature` 브랜치에서 `dev`로 Pull Request를 보내면, CI가 동작된다.
+- `dev`에서 `master`로 Pull Request를 보내면, CI가 동작되고 Merge가 되면, 운영 리소스에 배포된다.
 
 
 ## 💻 Getting Started
@@ -46,3 +64,14 @@
 ### Develop Mode
 
 ### Production
+
+
+## :baby_chick: Demo
+(↑해당 프로젝트가 실제 배포되고 있지 않아서, 이미지로 프로젝트의 뷰를 대체할 경우)
+<p float="left">
+    <img src="https://lh3.googleusercontent.com/iYHEwh2_Q6nIKS67eItV4AwIokeJDNe0ojtpWGqKpRyhaRlmCSmBcnkFNCmXbTkajKA=w2560-h1330-rw" width=200 />
+    <img src="https://lh3.googleusercontent.com/xl0sqT6Jz1p9Gq9slw4VXRr-akf4v74b_k3QkZUMZPvYV37-e5LqTZcOjofof4Xyl48=w2560-h1330-rw" width=200 />
+    <img src="https://lh3.googleusercontent.com/JqUUXWSgU0bhSBpOObERLvfUGE3eBnInmYvDMY3S2aAatyeFKLOifWnBLgZ0KLGbmA=w2560-h1330-rw" width=200 />
+    <img src="https://lh3.googleusercontent.com/AdN5fkguQMSc4M6iVkAFONsuxZhOQaKE7TDzuhF56FgDLORAnBv8160W7vva4a6kFBg=w2560-h1330-rw" width=200 />
+    <img src="https://lh3.googleusercontent.com/ruDvvtKehqGB_4PX7QBsUY2RLDe_v6g5FL-_XmC6SUGjKUQqa08Uy-DtsNi8wYuuXU4=w2560-h1330-rw" width=200 />
+</p>
