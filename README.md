@@ -37,7 +37,15 @@
 (↑프로젝트에 대한 자세한 설명)
 
 ## ⭐ Main Feature
+### 정기 결제 기능
+- 아임포트(Iamport)를 이용한 정기 결제 기능 구현
 
+### 회원가입 및 로그인 
+- JWT 이용
+
+### 기타 기능
+- 상품 리스트 조회 및 세부 사항 조회
+- 마이페이지
 
 ## 🔧 Stack
 - **Language**: JavaScript
@@ -61,11 +69,17 @@
 (↑해당 프로젝트 설치 및 실행 방법)
 
 ### Installation
-
+```
+npm install
+```
 ### Develop Mode
-
+```
+npm run dev
+```
 ### Production
-
+```
+npm run build
+```
 
 ## :baby_chick: Demo
 (↑해당 프로젝트가 실제 배포되고 있지 않아서, 이미지로 프로젝트의 뷰를 대체할 경우)
