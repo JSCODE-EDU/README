@@ -76,3 +76,8 @@
     <img src="https://lh3.googleusercontent.com/AdN5fkguQMSc4M6iVkAFONsuxZhOQaKE7TDzuhF56FgDLORAnBv8160W7vva4a6kFBg=w2560-h1330-rw" width=200 />
     <img src="https://lh3.googleusercontent.com/ruDvvtKehqGB_4PX7QBsUY2RLDe_v6g5FL-_XmC6SUGjKUQqa08Uy-DtsNi8wYuuXU4=w2560-h1330-rw" width=200 />
 </p>
+
+## 👨‍👩‍👧‍👦 Developer
+*  **박재성** ([jaeseongDev](https://github.com/jaeseongDev))
+*  **고성진** ([seongjin96](https://github.com/seongjin96))
+*  **조연희** ([yeoneei](https://github.com/yeoneei))
