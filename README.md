@@ -36,6 +36,16 @@
 
 (↑프로젝트에 대한 자세한 설명)
 
+## :baby_chick: Demo
+(↑해당 프로젝트가 실제 배포되고 있지 않아서, 이미지로 프로젝트의 뷰를 대체할 경우)
+<p float="left">
+    <img src="https://lh3.googleusercontent.com/iYHEwh2_Q6nIKS67eItV4AwIokeJDNe0ojtpWGqKpRyhaRlmCSmBcnkFNCmXbTkajKA=w2560-h1330-rw" width=200 />
+    <img src="https://lh3.googleusercontent.com/xl0sqT6Jz1p9Gq9slw4VXRr-akf4v74b_k3QkZUMZPvYV37-e5LqTZcOjofof4Xyl48=w2560-h1330-rw" width=200 />
+    <img src="https://lh3.googleusercontent.com/JqUUXWSgU0bhSBpOObERLvfUGE3eBnInmYvDMY3S2aAatyeFKLOifWnBLgZ0KLGbmA=w2560-h1330-rw" width=200 />
+    <img src="https://lh3.googleusercontent.com/AdN5fkguQMSc4M6iVkAFONsuxZhOQaKE7TDzuhF56FgDLORAnBv8160W7vva4a6kFBg=w2560-h1330-rw" width=200 />
+    <img src="https://lh3.googleusercontent.com/ruDvvtKehqGB_4PX7QBsUY2RLDe_v6g5FL-_XmC6SUGjKUQqa08Uy-DtsNi8wYuuXU4=w2560-h1330-rw" width=200 />
+</p>
+
 ## ⭐ Main Feature
 ### 정기 결제 기능
 - 아임포트(Iamport)를 이용한 정기 결제 기능 구현
@@ -46,24 +56,6 @@
 ### 기타 기능
 - 상품 리스트 조회 및 세부 사항 조회
 - 마이페이지
-
-## 🔧 Stack
-- **Language**: JavaScript
-- **Library & Framework** : Node.js
-- **Database** : AWS RDS (MariaDB)
-- **ORM** : Sequelize
-- **Deploy**: AWS EC2
-
-
-## 🔨 Server Architecture
-(↑서버 아키텍처에 대한 내용을 그림으로 표현함으로써 인프라를 어떻게 구축했는 지 한 눈에 보여줄 수 있다.)
-![](https://docs.aws.amazon.com/gamelift/latest/developerguide/images/realtime-whatis-architecture-vsd.png)
-
-## ⚒ CI/CD
-- github actions를 활용해서 지속적 통합 및 배포
-- `feature` 브랜치에서 `dev`로 Pull Request를 보내면, CI가 동작된다.
-- `dev`에서 `master`로 Pull Request를 보내면, CI가 동작되고 Merge가 되면, 운영 리소스에 배포된다.
-
 
 ## 💻 Getting Started
 (↑해당 프로젝트 설치 및 실행 방법)
@@ -81,15 +73,22 @@ npm run dev
 npm run build
 ```
 
-## :baby_chick: Demo
-(↑해당 프로젝트가 실제 배포되고 있지 않아서, 이미지로 프로젝트의 뷰를 대체할 경우)
-<p float="left">
-    <img src="https://lh3.googleusercontent.com/iYHEwh2_Q6nIKS67eItV4AwIokeJDNe0ojtpWGqKpRyhaRlmCSmBcnkFNCmXbTkajKA=w2560-h1330-rw" width=200 />
-    <img src="https://lh3.googleusercontent.com/xl0sqT6Jz1p9Gq9slw4VXRr-akf4v74b_k3QkZUMZPvYV37-e5LqTZcOjofof4Xyl48=w2560-h1330-rw" width=200 />
-    <img src="https://lh3.googleusercontent.com/JqUUXWSgU0bhSBpOObERLvfUGE3eBnInmYvDMY3S2aAatyeFKLOifWnBLgZ0KLGbmA=w2560-h1330-rw" width=200 />
-    <img src="https://lh3.googleusercontent.com/AdN5fkguQMSc4M6iVkAFONsuxZhOQaKE7TDzuhF56FgDLORAnBv8160W7vva4a6kFBg=w2560-h1330-rw" width=200 />
-    <img src="https://lh3.googleusercontent.com/ruDvvtKehqGB_4PX7QBsUY2RLDe_v6g5FL-_XmC6SUGjKUQqa08Uy-DtsNi8wYuuXU4=w2560-h1330-rw" width=200 />
-</p>
+## 🔧 Stack
+- **Language**: JavaScript
+- **Library & Framework** : Node.js
+- **Database** : AWS RDS (MariaDB)
+- **ORM** : Sequelize
+- **Deploy**: AWS EC2
+
+
+## 🔨 Server Architecture
+(↑서버 아키텍처에 대한 내용을 그림으로 표현함으로써 인프라를 어떻게 구축했는 지 한 눈에 보여줄 수 있다.)
+![](https://docs.aws.amazon.com/gamelift/latest/developerguide/images/realtime-whatis-architecture-vsd.png)
+
+## ⚒ CI/CD
+- github actions를 활용해서 지속적 통합 및 배포
+- `feature` 브랜치에서 `dev`로 Pull Request를 보내면, CI가 동작된다.
+- `dev`에서 `master`로 Pull Request를 보내면, CI가 동작되고 Merge가 되면, 운영 리소스에 배포된다.
 
 ## 👨‍👩‍👧‍👦 Developer
 *  **박재성** ([jaeseongDev](https://github.com/jaeseongDev))
