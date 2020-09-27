@@ -108,6 +108,22 @@ src
 - `feature` 브랜치에서 `dev`로 Pull Request를 보내면, CI가 동작된다.
 - `dev`에서 `master`로 Pull Request를 보내면, CI가 동작되고 Merge가 되면, 운영 리소스에 배포된다.
 
+## 👨‍💻 Role & Contribution
+
+**Frontend (Web)**
+
+- 관리자 페이지 (Vue.js) 개발
+- 전체 아키텍처 구성
+
+**Devops**
+
+- CI/CD 구축 (Docker, Github Action)
+- 서버 모니터링
+
+**etc**
+
+- 전체 개발 일정 및 이슈 관리
+
 ## 👨‍👩‍👧‍👦 Developer
 *  **박재성** ([jaeseongDev](https://github.com/jaeseongDev))
 *  **고성진** ([seongjin96](https://github.com/seongjin96))
